@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PagedResultsVB", "http://localhost/msp/PagedResultsVB/PagedResultsVB.vbproj", "{296C3F59-07F4-4F0A-A5EC-703CF881435A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{296C3F59-07F4-4F0A-A5EC-703CF881435A}.Debug.ActiveCfg = Debug|.NET
+		{296C3F59-07F4-4F0A-A5EC-703CF881435A}.Debug.Build.0 = Debug|.NET
+		{296C3F59-07F4-4F0A-A5EC-703CF881435A}.Release.ActiveCfg = Release|.NET
+		{296C3F59-07F4-4F0A-A5EC-703CF881435A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

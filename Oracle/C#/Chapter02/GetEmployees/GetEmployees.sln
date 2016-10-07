@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetEmployees", "GetEmployees.csproj", "{006ABB24-EECE-4701-8B36-15CCD92DAFBB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{006ABB24-EECE-4701-8B36-15CCD92DAFBB}.Debug.ActiveCfg = Debug|.NET
+		{006ABB24-EECE-4701-8B36-15CCD92DAFBB}.Debug.Build.0 = Debug|.NET
+		{006ABB24-EECE-4701-8B36-15CCD92DAFBB}.Release.ActiveCfg = Release|.NET
+		{006ABB24-EECE-4701-8B36-15CCD92DAFBB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

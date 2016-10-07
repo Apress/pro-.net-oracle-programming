@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivilegedConnection", "PrivilegedConnection.csproj", "{A8274344-A822-4EA1-8A0B-0C309F6DDE72}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A8274344-A822-4EA1-8A0B-0C309F6DDE72}.Debug.ActiveCfg = Debug|.NET
+		{A8274344-A822-4EA1-8A0B-0C309F6DDE72}.Debug.Build.0 = Debug|.NET
+		{A8274344-A822-4EA1-8A0B-0C309F6DDE72}.Release.ActiveCfg = Release|.NET
+		{A8274344-A822-4EA1-8A0B-0C309F6DDE72}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

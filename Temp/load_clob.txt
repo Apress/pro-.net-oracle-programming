@@ -1,0 +1,34 @@
+declare
+  /* local variables to hold the lob locators */
+  l_clob  clob;
+  l_bfile bfile;
+begin
+  /* this is a method to get the lob locator */
+  /* for the lob column in the table */
+  /* by inserting an empty_clob and returning */
+  /* into the local clob variable, we easily */
+  /* acquire the lob locator */
+  insert into clob_test (clob_id, clob_data)
+  values (1, empty_clob())
+  returning clob_data into l_clob;
+
+  /* this is the file we will load */
+  l_bfile := bfilename('C_TEMP', 'ORABIN.TXT');
+
+  /* the file must be opened prior to loading */
+  dbms_lob.fileopen(l_bfile);
+
+  /* this procedure performs the actual data load */
+  /* it does not perform character set conversion */
+  /* if character set conversion is required, */
+  /* the loadclobfromfile procedure may be used */
+  /* however, if you do not need character set */
+  /* conversion, this procedure is much simpler */
+  dbms_lob.loadfromfile(l_clob, l_bfile, dbms_lob.getlength(l_bfile));
+
+  /* close the bfile after loading it */
+  dbms_lob.fileclose(l_bfile);
+
+  /* commit the transaction */
+  commit;
+end;

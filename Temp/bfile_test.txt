@@ -1,0 +1,6 @@
+This is a simple text file that is used to test the
+BFILE functionality.
+
+The actual contents of this file are not important.
+
+This is the last line in the file.

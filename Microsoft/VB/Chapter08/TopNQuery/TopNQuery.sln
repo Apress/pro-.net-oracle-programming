@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TopNQuery", "TopNQuery\TopNQuery.vbproj", "{98542BA0-26EE-44A9-8D39-0E78BA4CB410}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{98542BA0-26EE-44A9-8D39-0E78BA4CB410}.Debug.ActiveCfg = Debug|.NET
+		{98542BA0-26EE-44A9-8D39-0E78BA4CB410}.Debug.Build.0 = Debug|.NET
+		{98542BA0-26EE-44A9-8D39-0E78BA4CB410}.Release.ActiveCfg = Release|.NET
+		{98542BA0-26EE-44A9-8D39-0E78BA4CB410}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloOracle", "HelloOracle.csproj", "{04B35EB0-B98D-4EEB-8E9B-44DCD3C96AE1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{04B35EB0-B98D-4EEB-8E9B-44DCD3C96AE1}.Debug.ActiveCfg = Debug|.NET
+		{04B35EB0-B98D-4EEB-8E9B-44DCD3C96AE1}.Debug.Build.0 = Debug|.NET
+		{04B35EB0-B98D-4EEB-8E9B-44DCD3C96AE1}.Release.ActiveCfg = Release|.NET
+		{04B35EB0-B98D-4EEB-8E9B-44DCD3C96AE1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

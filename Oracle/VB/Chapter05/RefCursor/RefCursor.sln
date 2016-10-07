@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RefCursor", "RefCursor\RefCursor.vbproj", "{426BADAF-FAD6-4AAB-8BAC-66DEA5F0A37B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{426BADAF-FAD6-4AAB-8BAC-66DEA5F0A37B}.Debug.ActiveCfg = Debug|.NET
+		{426BADAF-FAD6-4AAB-8BAC-66DEA5F0A37B}.Debug.Build.0 = Debug|.NET
+		{426BADAF-FAD6-4AAB-8BAC-66DEA5F0A37B}.Release.ActiveCfg = Release|.NET
+		{426BADAF-FAD6-4AAB-8BAC-66DEA5F0A37B}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

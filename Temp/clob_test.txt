@@ -1,0 +1,484 @@
+SQL> select clob_id, clob_data from clob_test;
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+         1  Volume in drive C has no label.
+            Volume Serial Number is 4847-2DDB
+           
+            Directory of c:\oracle\10.1\database\bin
+           
+           05/13/2004  01:54 PM    <DIR>          .
+           05/13/2004  01:54 PM    <DIR>          ..
+           11/24/2003  04:15 PM           260,531 adinit.dat
+           01/12/2004  12:03 PM           257,024 agent.exe
+           01/12/2004  12:03 PM           254,464 agntsvc.exe
+           03/08/2004  03:13 PM            28,944 agtctl.exe
+           03/08/2004  03:20 PM            16,384 asmtool.exe
+           03/08/2004  03:20 PM            24,576 asmtoolg.exe
+           03/06/2004  01:19 AM           108,920 cemutls.exe
+           03/06/2004  01:23 AM           205,088 clscfg.exe
+           03/06/2004  01:23 AM            74,548 clsfmt.exe
+           11/24/2003  04:16 PM           350,399 cmmap000.bin
+           01/12/2004  12:03 PM             1,954 config
+           01/27/2004  02:49 AM            86,124 COREJAVA.DLL
+           03/06/2004  01:23 AM           174,436 crsctl.exe
+           03/06/2004  01:23 AM           170,916 crssetup.exe
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           02/04/2004  09:44 PM           180,496 csscan.exe
+           01/28/2004  06:25 AM            74,000 ctxhx.exe
+           01/28/2004  06:25 AM           438,544 ctxkbtc.exe
+           01/28/2004  06:25 AM           368,912 ctxlc.exe
+           01/28/2004  06:25 AM            94,480 ctxload.exe
+           05/09/2004  12:42 PM             2,974 dbca.bat
+           05/09/2004  12:42 PM             2,679 dbma.bat
+           03/08/2004  02:43 PM            33,040 dbv.exe
+           11/24/2003  04:15 PM            73,818 debmp.dll
+           11/24/2003  04:15 PM           184,410 demet.dll
+           05/09/2004  12:41 PM             3,758 deploync.bat
+           03/08/2004  03:12 PM           221,456 dgmgrl.exe
+           05/09/2004  12:41 PM               561 dropjava.bat
+           01/27/2004  03:17 PM           488,204 dsml2ldif.exe
+           05/09/2004  12:41 PM             1,025 emca.bat
+           01/12/2004  12:03 PM           190,464 encaps.exe
+           01/12/2004  12:02 PM           187,392 encsvc.exe
+           11/24/2003  04:15 PM           127,077 exgdsf.dll
+           11/24/2003  04:16 PM           389,221 exhtml.dll
+           03/08/2004  02:43 PM           405,776 EXP.EXE
+           03/08/2004  03:14 PM            82,192 expdp.exe
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           03/08/2004  03:15 PM            52,552 extjob.exe
+           03/08/2004  03:15 PM            52,552 extjobo.exe
+           03/08/2004  03:12 PM           352,528 extproc.exe
+           02/11/2004  10:22 PM         1,372,432 harnessoraawt.dll
+           03/09/2003  09:07 PM             1,592 helpins.bat
+           01/21/2004  04:49 PM            20,752 heteroxa10.dll
+           03/08/2004  03:13 PM           495,888 hsalloci.exe
+           03/08/2004  04:01 PM         1,503,232 hsbase.dll
+           03/08/2004  04:01 PM           110,592 hsdbdbc.dll
+           03/08/2004  04:01 PM           114,688 hsdbole.dll
+           03/08/2004  04:01 PM           110,592 hsdbora.dll
+           03/08/2004  04:01 PM           110,632 hsdbsql.dll
+           03/08/2004  03:13 PM           430,352 hsdepxa.exe
+           03/08/2004  04:01 PM         1,961,984 hsnav32.dll
+           03/08/2004  03:16 PM         1,081,616 hsodbc.exe
+           03/08/2004  03:16 PM         1,081,616 hsolefs.exe
+           03/08/2004  03:16 PM         1,081,616 hsolesql.exe
+           03/08/2004  03:13 PM           422,160 hsots.exe
+           11/24/2003  04:15 PM            77,824 ibfpx2.flt
+           11/24/2003  04:16 PM            36,864 ibgp42.flt
+           11/24/2003  04:15 PM            61,440 ibjpg2.flt
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           11/24/2003  04:15 PM           126,976 ibpcd2.flt
+           11/24/2003  04:16 PM            36,864 ibpsd2.flt
+           11/24/2003  04:15 PM            32,768 ibxbm2.flt
+           11/24/2003  04:16 PM            53,248 ibxpm2.flt
+           11/24/2003  04:15 PM            36,864 ibxwd2.flt
+           11/24/2003  04:16 PM            94,208 imcd32.flt
+           11/24/2003  04:15 PM           110,592 imcd42.flt
+           11/24/2003  04:15 PM           106,496 imcd52.flt
+           11/24/2003  04:16 PM           122,880 imcd62.flt
+           11/24/2003  04:16 PM           192,512 imcd72.flt
+           11/24/2003  04:15 PM           192,512 imcd82.flt
+           11/24/2003  04:16 PM            32,768 imcdr2.flt
+           11/24/2003  04:16 PM            53,248 imcm52.flt
+           11/24/2003  04:15 PM            94,208 imcm72.flt
+           11/24/2003  04:16 PM            32,768 imcmx2.flt
+           11/24/2003  04:16 PM           102,400 imdsf2.flt
+           11/24/2003  04:16 PM            61,440 imfmv2.flt
+           11/24/2003  04:16 PM            61,440 imgdf2.flt
+           11/24/2003  04:15 PM            45,056 imgem2.flt
+           11/24/2003  04:15 PM            94,208 imigs2.flt
+           11/24/2003  04:16 PM            94,208 immet2.flt
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           03/08/2004  02:43 PM           164,112 IMP.EXE
+           03/08/2004  03:14 PM            86,288 impdp.exe
+           11/24/2003  04:16 PM            57,344 impif2.flt
+           11/24/2003  04:16 PM            98,304 imps_2.flt
+           11/24/2003  04:16 PM           528,384 impsi2.flt
+           11/24/2003  04:15 PM            32,768 impsz2.flt
+           11/24/2003  04:16 PM            36,864 imrnd2.flt
+           11/24/2003  04:16 PM           159,744 iphgw2.flt
+           11/24/2003  04:15 PM         1,159,168 isgdi32.dll
+           02/11/2004  10:26 PM         1,372,432 jox10oraawt.dll
+           03/08/2004  03:15 PM            74,000 kfod.exe
+           02/07/2004  08:52 PM            28,672 launch.exe
+           05/09/2004  12:40 PM               672 lbuilder.bat
+           01/27/2004  04:47 AM            81,948 LCSSCAN.EXE
+           01/27/2004  03:16 PM           505,900 ldapadd.exe
+           01/27/2004  03:17 PM           508,912 ldapaddmt.exe
+           01/27/2004  03:17 PM           471,524 ldapbind.exe
+           01/27/2004  03:17 PM           471,436 ldapcompare.exe
+           01/27/2004  03:16 PM           471,572 ldapdelete.exe
+           01/27/2004  03:17 PM           467,168 ldapmoddn.exe
+           01/27/2004  03:17 PM           505,900 ldapmodify.exe
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           01/27/2004  03:17 PM           508,920 ldapmodifymt.exe
+           01/27/2004  03:16 PM           486,216 ldapsearch.exe
+           05/09/2004  12:41 PM             2,062 ldifmigrator.bat
+           02/03/2004  11:37 AM            65,536 libmgwagent.dll
+           01/27/2004  04:46 AM            43,064 LMSGEN.EXE
+           05/09/2004  12:41 PM             2,491 loadjava.bat
+           03/08/2004  03:12 PM            16,656 loadpsp.exe
+           05/09/2004  12:40 PM             1,199 localconfig.bat
+           03/06/2004  01:20 AM            96,592 lsnodes.exe
+           03/05/2004  05:16 PM           250,228 LSNRCTL.EXE
+           05/06/2001  12:44 PM         1,066,910 ltscsd13.tlb
+           08/05/2003  09:41 PM           105,472 ltscsn10.dll
+           08/05/2003  09:42 PM         1,567,232 lwpapin.dll
+           05/06/2001  12:44 PM           183,254 lwpapipn.dat
+           01/27/2004  04:46 AM            68,556 LXEGEN.EXE
+           01/27/2004  04:46 AM           276,908 LXINST.EXE
+           05/09/2004  12:41 PM               487 mkstore.bat
+           05/09/2004  12:41 PM             3,756 ncomp.bat
+           05/09/2004  12:41 PM             1,153 netca.bat
+           05/09/2004  12:41 PM               110 netca_deinst.bat
+           03/08/2004  03:14 PM            41,232 nid.exe
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           03/05/2004  05:14 PM           270,608 njssl10.dll
+           03/08/2004  03:59 PM           188,416 oci.dll
+           01/21/2004  04:54 PM            61,712 ocijdbc10.dll
+           03/08/2004  03:16 PM            32,768 ociw32.dll
+           03/08/2004  03:17 PM            24,576 ocopy.exe
+           03/06/2004  01:19 AM           114,592 ocrcheck.exe
+           03/06/2004  01:19 AM           184,480 ocrconfig.exe
+           03/06/2004  01:19 AM           133,176 ocrdump.exe
+           03/06/2004  01:20 AM           773,444 ocssd.exe
+           02/10/2004  11:09 AM             7,680 ODPReg.exe
+           05/09/2004  12:41 PM             1,076 oidca.bat
+           05/09/2004  12:41 PM             1,518 oidprovtool.bat
+           05/09/2004  12:41 PM               609 ojvmjava.bat
+           03/05/2004  05:16 PM            28,324 OKDSTRY.EXE
+           03/05/2004  05:16 PM            29,340 OKINIT.EXE
+           03/05/2004  05:16 PM            28,308 OKLIST.EXE
+           05/09/2004  12:39 PM               527 olsadmintool.bat
+           05/09/2004  12:39 PM               549 olsoidsync.bat
+           02/26/2004  12:26 PM            45,056 onsclient.dll
+           02/26/2004  12:29 PM            16,384 onsctl.exe
+           10/07/2003  10:05 PM               147 oracg.bat
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           03/01/2004  05:03 AM           475,136 Oracle.DataAccess.dllORACLE.DATAACCESS.DL
+           LM        44,560,656 oracle.exe
+           05/09/2004  12:40 PM                36 oracle.key
+           03/05/2004  05:15 PM            20,480 OracleAdNetConnect.exe
+           03/05/2004  05:15 PM            24,576 OracleAdNetConnectRCUS.dll
+           03/05/2004  05:16 PM            24,576 OracleAdNetTest.exe
+           03/05/2004  05:16 PM            24,576 OracleAdNetTestRCUS.dll
+           03/08/2004  02:39 PM         1,909,008 oraclient10.dll
+           03/10/2004  02:09 PM           749,840 oracommon10.dll
+           01/27/2004  02:49 AM           688,400 ORACORE10.DLL
+           03/06/2004  01:16 AM            57,616 oradbcfg10.dll
+           03/08/2004  03:20 PM            16,384 oradim.exe
+           03/08/2004  02:39 PM         4,235,536 orageneric10.dll
+           03/14/2004  08:43 AM           327,952 orahasgen10.dll
+           03/08/2004  03:19 PM            77,824 oraimr10.dll
+           02/11/2004  10:22 PM            28,944 oraioser.dll
+           02/11/2004  10:22 PM            20,752 orajaas.dll
+           10/07/2003  10:05 PM               144 orajaxb.bat
+           03/05/2004  05:14 PM            45,056 orajmisc.dll
+           03/08/2004  03:18 PM         4,935,952 orajox10.dll
+           03/08/2004  03:14 PM            16,384 orakill.exe
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           01/27/2004  03:16 PM           278,800 oraldapclnt10.dll
+           01/27/2004  03:16 PM           258,320 oraldapjclnt10.dll
+           01/27/2004  04:46 AM            37,136 ORALXLED.DLL
+           03/05/2004  05:25 PM           946,448 oran10.dll
+           03/05/2004  05:15 PM            37,136 oranad10.dll
+           03/05/2004  05:11 PM            33,040 oranbeq10.dll
+           03/05/2004  05:12 PM            24,848 ORANCDS10.DLL
+           03/05/2004  05:11 PM            94,480 orancrypt10.dll
+           03/05/2004  05:11 PM            94,480 ORANCRYPT10D.DLL
+           03/05/2004  05:11 PM            24,848 oranhost10.dll
+           03/05/2004  05:11 PM            33,040 oranipc10.dll
+           03/05/2004  05:12 PM           143,632 oranjni10.dll
+           03/05/2004  05:11 PM           180,496 oranl10.dll
+           03/13/2004  01:40 AM            74,000 oranldap10.dll
+           03/10/2004  06:42 PM            33,040 oranldapj10.dll
+           01/27/2004  04:45 AM           586,000 ORANLS10.DLL
+           03/11/2004  11:23 PM         1,544,353 oranmemso.dll
+           03/05/2004  05:11 PM            33,040 orannmp10.dll
+           03/05/2004  05:12 PM            28,944 orannzentr10.dll
+           03/05/2004  05:12 PM            28,944 ORANNZMCS10.DLL
+           03/05/2004  05:11 PM           962,832 orannzsbb10.dll
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           03/05/2004  05:12 PM            53,520 oranoncj10.dll
+           03/05/2004  05:10 PM           221,456 oranro10.dll
+           03/05/2004  05:12 PM            37,136 oransgr10.dll
+           03/05/2004  05:11 PM            49,424 orantcp10.dll
+           03/05/2004  05:12 PM            49,424 ORANTCPS10.DLL
+           03/05/2004  05:11 PM            24,848 orantns10.dll
+           03/05/2004  05:13 PM            28,944 oranzts10.dll
+           03/08/2004  03:25 PM            20,480 oraobjop10.dll
+           03/08/2004  04:01 PM         1,066,676 oraocci10.dll
+           03/06/2004  01:16 AM           209,168 oraocr10.dll
+           03/14/2004  06:50 PM           147,728 oraocrb10.dll
+           03/06/2004  01:17 AM            33,040 oraocrutl10.dll
+           03/08/2004  02:39 PM            24,848 oraodm10.dll
+           01/27/2004  06:38 PM         2,613,248 oraolapapi10.dll
+           03/08/2004  03:25 PM            20,480 oraolapop10.dll
+           03/01/2004  05:08 AM           299,008 OraOps10.dll
+           02/12/2004  05:32 PM           467,076 oraordim10.dll
+           10/07/2003  10:05 PM               159 orapipe.bat
+           05/09/2004  12:41 PM               486 orapki.bat
+           03/08/2004  03:06 PM            61,712 ORAPLC10.DLL
+           03/08/2004  03:07 PM         1,052,944 ORAPLP10.DLL
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           03/08/2004  03:06 PM         2,867,472 ORAPLS10.DLL
+           03/08/2004  03:25 PM            20,480 ORAPRTOP10.DLL
+           03/08/2004  02:43 PM            16,656 orapwd.exe
+           03/08/2004  03:11 PM           172,304 oraqsmashr.dll
+           02/03/2004  10:10 PM            28,944 ORASLAX10.DLL
+           01/27/2004  04:46 AM            69,904 ORASNLS10.DLL
+           03/08/2004  03:23 PM            24,576 oraspawn.dll
+           03/11/2004  07:35 PM           483,600 ORASQL10.DLL
+           03/09/2004  07:46 PM            61,712 orasrvm.DLL
+           03/09/2004  07:46 PM            61,712 orasrvm10.dll
+           03/06/2004  01:17 AM           143,632 orasrvmhas.dll
+           03/08/2004  03:25 PM            16,384 orastack.exe
+           03/06/2004  01:17 AM            24,848 orauini10.dll
+           01/27/2004  04:45 AM            78,096 ORAUNLS10.DLL
+           01/27/2004  02:49 AM            28,944 orauts.dll
+           01/27/2004  02:49 AM               830 orauts.sym
+           03/08/2004  02:39 PM            24,848 oravsn10.dll
+           03/01/2004  06:01 AM            86,016 orawcom10.dll
+           03/01/2004  06:01 AM            77,824 orawpcom10.dll
+           02/03/2004  05:56 AM            10,240 orawsec9.dll
+           10/07/2003  10:05 PM               148 oraxml.bat
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           02/03/2004  09:58 PM         1,473,868 ORAXML10.DLL
+           10/07/2003  10:05 PM               148 oraxsl.bat
+           09/30/1999  03:43 PM             2,478 orclcontainer.bmp
+           09/30/1999  03:43 PM             2,478 orclcontext.bmp
+           08/03/1999  05:00 PM               246 orcldbserver.bmp
+           09/30/1999  04:10 PM             3,310 orclnetservice.bmp
+           02/24/2004  11:11 AM            57,344 OsUtils.dll
+           02/23/2004  10:14 AM            49,152 ott.exe
+           05/09/2004  12:41 PM               969 owm.cl
+           03/05/2004  05:14 PM           864,528 owm2.dll
+           03/08/2004  03:23 PM           934,160 proc.exe
+           03/09/2003  09:05 PM             1,396 pupbld.bat
+           03/06/2004  01:19 AM            71,956 rawutl.exe
+           03/08/2004  03:37 PM         1,179,920 RMAN.EXE
+           11/24/2003  04:15 PM            36,954 sccca.dll
+           11/24/2003  04:15 PM             2,804 sccca.lib
+           11/24/2003  04:15 PM            90,202 sccch.dll
+           11/24/2003  04:15 PM            49,242 sccda.dll
+           11/24/2003  04:16 PM            12,964 sccda.lib
+           11/24/2003  04:15 PM           213,082 sccdu.dll
+           12/07/2003  03:10 PM            65,623 sccex.dll
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           11/24/2003  04:15 PM            35,232 sccex.lib
+           11/24/2003  04:16 PM            90,202 sccfa.dll
+           11/24/2003  04:16 PM            65,626 sccfi.dll
+           11/24/2003  04:15 PM             3,008 sccfi.lib
+           11/24/2003  04:15 PM            49,152 sccfmt.dll
+           11/24/2003  04:15 PM           102,490 scclo.dll
+           11/24/2003  04:15 PM            28,763 sccole.dll
+           11/24/2003  04:15 PM            32,858 sccole2.dll
+           12/07/2003  03:10 PM           208,983 sccut.dll
+           02/03/2004  10:00 PM           522,936 schema.exe
+           03/10/2004  05:17 PM            60,280 sclsspawn.exe
+           05/09/2004  12:41 PM               689 searchctl.bat
+           03/10/2004  02:29 AM             7,256 searchctl.pl
+           05/13/2004  01:54 PM               633 selecthome.bat
+           05/13/2004  01:54 PM               254 selecthome.bat.odpnet
+           05/09/2004  12:42 PM               125 selecthome.bat.oraconfig
+           03/08/2004  02:43 PM           393,488 SQLLDR.EXE
+           02/20/2004  02:23 AM           675,840 sqlplus.exe
+           02/20/2004  02:23 AM           733,184 sqlplusw.exe
+           05/09/2004  12:41 PM             3,760 statusnc.bat
+           05/09/2004  12:41 PM             3,437 targetdeploy.pl
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           03/08/2004  02:44 PM            16,656 tkprof.exe
+           03/05/2004  05:16 PM           279,560 TNSLSNR.EXE
+           03/05/2004  05:17 PM            37,084 TNSPING.EXE
+           10/07/2003  10:05 PM               145 transx.bat
+           05/09/2004  12:41 PM               264 trcasst.bat
+           05/09/2004  12:41 PM               244 trcsess.bat
+           05/09/2004  12:41 PM               544 umu.bat
+           11/30/1999  10:32 AM           145,408 unzip.exe
+           11/24/2003  04:16 PM         1,429,596 vsacad.dll
+           11/24/2003  04:16 PM            41,048 vsacs.dll
+           11/24/2003  04:16 PM            69,720 vsami.dll
+           11/24/2003  04:16 PM            28,760 vsbdr.dll
+           11/24/2003  04:16 PM            36,952 vsbmp.dll
+           11/24/2003  04:16 PM            57,432 vscgm.dll
+           11/24/2003  04:15 PM            28,760 vsdbs.dll
+           11/24/2003  04:15 PM            32,856 vsdez.dll
+           11/24/2003  04:16 PM            28,760 vsdif.dll
+           11/24/2003  04:16 PM            36,952 vsdrw.dll
+           11/24/2003  04:15 PM            32,854 vsdx.dll
+           11/24/2003  04:16 PM            57,432 vsemf.dll
+           11/24/2003  04:16 PM            32,856 vsen4.dll
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           11/24/2003  04:16 PM            32,856 vsens.dll
+           11/24/2003  04:16 PM            32,856 vsenw.dll
+           11/24/2003  04:16 PM           163,932 vseshr.dll
+           11/24/2003  04:16 PM            45,146 vsexe2.dll
+           11/24/2003  04:15 PM            28,760 vsfax.dll
+           11/24/2003  04:16 PM            32,856 vsfcd.dll
+           11/24/2003  04:15 PM            32,856 vsfcs.dll
+           11/24/2003  04:16 PM            32,856 vsfft.dll
+           11/24/2003  04:16 PM           110,682 vsflw.dll
+           11/24/2003  04:16 PM            41,048 vsfwk.dll
+           11/24/2003  04:16 PM            77,916 vsgdsf.dll
+           11/24/2003  04:15 PM            28,762 vsgif.dll
+           11/24/2003  04:15 PM            36,954 vsgzip.dll
+           11/24/2003  04:16 PM            49,240 vshgs.dll
+           11/24/2003  04:16 PM            86,108 vshtml.dll
+           11/24/2003  04:15 PM            36,952 vshwp.dll
+           11/24/2003  04:16 PM            94,298 vsich.dll
+           11/24/2003  04:16 PM            57,434 vsich6.dll
+           11/24/2003  04:15 PM            28,760 vsimg.dll
+           11/24/2003  04:16 PM            32,856 vsiwp.dll
+           11/24/2003  04:15 PM            32,854 vsjw.dll
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           11/24/2003  04:16 PM            36,952 vsleg.dll
+           11/24/2003  04:15 PM           135,168 vslwp.dll
+           11/24/2003  04:16 PM           249,856 vslwp7.dll
+           11/24/2003  04:16 PM            41,048 vslzh.dll
+           11/24/2003  04:16 PM            32,856 vsm11.dll
+           11/24/2003  04:15 PM            41,050 vsmanu.dll
+           11/24/2003  04:16 PM            41,048 vsmcw.dll
+           11/24/2003  04:15 PM           188,504 vsmif.dll
+           11/24/2003  04:16 PM            36,950 vsmm.dll
+           11/24/2003  04:15 PM            36,952 vsmm4.dll
+           11/24/2003  04:16 PM            32,858 vsmmfn.dll
+           11/24/2003  04:15 PM            32,854 vsmp.dll
+           11/24/2003  04:16 PM           106,586 vsmpp.dll
+           11/24/2003  04:16 PM            32,856 vsmsg.dll
+           11/24/2003  04:15 PM            41,050 vsmsw.dll
+           11/24/2003  04:16 PM            28,762 vsmwkd.dll
+           11/24/2003  04:15 PM            28,762 vsmwks.dll
+           11/24/2003  04:15 PM            45,146 vsmwp2.dll
+           11/24/2003  04:15 PM            36,954 vsmwpf.dll
+           11/24/2003  04:16 PM            32,858 vsmwrk.dll
+           11/24/2003  04:16 PM            28,758 vsow.dll
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           11/24/2003  04:15 PM            28,760 vspbm.dll
+           11/24/2003  04:15 PM            28,760 vspcl.dll
+           11/24/2003  04:15 PM            32,856 vspcx.dll
+           12/07/2003  03:10 PM           143,447 vspdf.dll
+           11/24/2003  04:15 PM            32,858 vspdfi.dll
+           11/24/2003  04:15 PM            32,856 vspdx.dll
+           11/24/2003  04:15 PM            41,048 vspfs.dll
+           11/24/2003  04:15 PM            57,432 vspgl.dll
+           11/24/2003  04:15 PM            28,760 vspic.dll
+           11/24/2003  04:15 PM            49,242 vspict.dll
+           11/24/2003  04:15 PM            45,144 vspng.dll
+           11/24/2003  04:15 PM            28,762 vspntg.dll
+           11/24/2003  04:15 PM            61,528 vspp2.dll
+           11/24/2003  04:16 PM            65,624 vspp7.dll
+           11/24/2003  04:15 PM           155,740 vspp97.dll
+           11/24/2003  04:15 PM            36,952 vsppl.dll
+           11/24/2003  04:16 PM           163,840 vspsp6.dll
+           11/24/2003  04:16 PM            32,854 vsqa.dll
+           11/24/2003  04:15 PM            36,952 vsqad.dll
+           11/24/2003  04:16 PM            45,144 vsqp6.dll
+           11/24/2003  04:15 PM            65,626 vsqp9.dll
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           11/24/2003  04:16 PM            28,760 vsras.dll
+           11/24/2003  04:16 PM            32,856 vsrbs.dll
+           11/24/2003  04:16 PM            32,856 vsrft.dll
+           11/24/2003  04:16 PM            32,856 vsrfx.dll
+           11/24/2003  04:15 PM           122,970 vsrtf.dll
+           11/24/2003  04:16 PM            32,856 vssam.dll
+           11/24/2003  04:15 PM            32,856 vssc5.dll
+           11/24/2003  04:16 PM            32,856 vssdw.dll
+           11/24/2003  04:15 PM            36,954 vsshw3.dll
+           11/24/2003  04:16 PM            28,760 vssmd.dll
+           11/24/2003  04:15 PM            32,856 vssms.dll
+           11/24/2003  04:15 PM            32,856 vssmt.dll
+           11/24/2003  04:16 PM            32,858 vssnap.dll
+           11/24/2003  04:15 PM            36,952 vssoc.dll
+           11/24/2003  04:15 PM            36,952 vssoi.dll
+           11/24/2003  04:15 PM            32,856 vssow.dll
+           11/24/2003  04:15 PM            32,856 vsspt.dll
+           11/24/2003  04:15 PM            32,858 vstaz.dll
+           11/24/2003  04:16 PM            41,052 vstext.dll
+           11/24/2003  04:16 PM            28,760 vstga.dll
+           11/24/2003  04:16 PM            65,628 vstif6.dll
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           11/24/2003  04:16 PM            36,950 vstw.dll
+           11/24/2003  04:16 PM            36,952 vstxt.dll
+           11/24/2003  04:16 PM            53,338 vsvcrd.dll
+           11/24/2003  04:16 PM           114,780 vsviso.dll
+           11/24/2003  04:15 PM            32,856 vsvw3.dll
+           11/24/2003  04:15 PM           110,680 vsw6.dll
+           11/24/2003  04:16 PM           131,119 vsw97.dll
+           11/24/2003  04:15 PM            28,762 vswbmp.dll
+           11/24/2003  04:16 PM            45,144 vswg2.dll
+           11/24/2003  04:15 PM            86,104 vswk4.dll
+           11/24/2003  04:15 PM           114,778 vswk6.dll
+           11/24/2003  04:15 PM            45,144 vswks.dll
+           11/24/2003  04:16 PM            32,854 vswm.dll
+           11/24/2003  04:16 PM            41,007 vswmf.dll
+           11/24/2003  04:16 PM            57,432 vswml.dll
+           11/24/2003  04:15 PM            77,914 vsword.dll
+           11/24/2003  04:15 PM            36,954 vswork.dll
+           11/24/2003  04:16 PM            69,722 vswp5.dll
+           11/24/2003  04:16 PM            90,202 vswp6.dll
+           11/24/2003  04:15 PM            32,856 vswpf.dll
+           11/24/2003  04:15 PM            49,240 vswpg.dll
+
+   CLOB_ID CLOB_DATA
+---------- --------------------------------------------------------------------------------
+           11/24/2003  04:16 PM            53,297 vswpg2.dll
+           11/24/2003  04:15 PM            36,952 vswpl.dll
+           11/24/2003  04:16 PM            57,432 vswpw.dll
+           11/24/2003  04:16 PM            36,950 vsws.dll
+           11/24/2003  04:16 PM            32,856 vsws2.dll
+           12/07/2003  03:10 PM           176,215 vsxl5.dll
+           11/24/2003  04:15 PM            36,950 vsxy.dll
+           11/24/2003  04:16 PM            36,954 vszip.dll
+           03/08/2004  03:11 PM            45,328 WRAP.EXE
+           02/03/2004  10:09 PM           811,480 xml.exe
+           02/03/2004  10:00 PM           983,948 xmlcg.exe
+           02/03/2004  10:00 PM           713,436 xsl.exe
+           12/18/2003  03:38 PM             1,052 xsql.bat
+           12/18/2003  03:38 PM               578 xsqlproxy.bat
+           02/03/2004  10:00 PM           628,944 xvm.exe
+           07/16/1998  04:36 PM           104,448 zip.exe
+                        408 File(s)    126,434,621 bytes
+                          2 Dir(s)  50,567,090,176 bytes free
+
+
+
+1 row selected.
+
+SQL> spool off

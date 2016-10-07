@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobTest", "BlobTest.csproj", "{02B63C6A-CEEF-46FF-B058-59A107E83204}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{02B63C6A-CEEF-46FF-B058-59A107E83204}.Debug.ActiveCfg = Debug|.NET
+		{02B63C6A-CEEF-46FF-B058-59A107E83204}.Debug.Build.0 = Debug|.NET
+		{02B63C6A-CEEF-46FF-B058-59A107E83204}.Release.ActiveCfg = Release|.NET
+		{02B63C6A-CEEF-46FF-B058-59A107E83204}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

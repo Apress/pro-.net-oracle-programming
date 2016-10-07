@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionPooling", "ConnectionPooling.csproj", "{68D89154-6032-4E6C-9D4D-5FAF13DD137C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{68D89154-6032-4E6C-9D4D-5FAF13DD137C}.Debug.ActiveCfg = Debug|.NET
+		{68D89154-6032-4E6C-9D4D-5FAF13DD137C}.Debug.Build.0 = Debug|.NET
+		{68D89154-6032-4E6C-9D4D-5FAF13DD137C}.Release.ActiveCfg = Release|.NET
+		{68D89154-6032-4E6C-9D4D-5FAF13DD137C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
